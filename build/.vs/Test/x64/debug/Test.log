@@ -1,0 +1,5 @@
+﻿  $xmake config -y  -P . -p windows -m debug -a x64 -o "build"
+EXEC : warning : .\xmake.lua:32: cannot match add_files("Runtime\EntryPoint") in target(Runtime)
+  $xmake build -y  -P .  "Test"
+  [100%]: build ok, spent 0.156s
+EXEC : warning : .\xmake.lua:32: cannot match add_files("Runtime\EntryPoint") in target(Runtime)

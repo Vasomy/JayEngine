@@ -1,0 +1,1 @@
+#include"RHIOpenGL3Resource\RHIOpenGL3TypeTraits.h"

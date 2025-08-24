@@ -1,0 +1,767 @@
+﻿  $xmake config -y  -P . -p windows -m debug -a x64 -o "build"
+  checking for Microsoft Visual Studio (x64) version ... 2022
+  checking for Microsoft C/C++ Compiler (x64) version ... 19.35.32216.1
+  $xmake build -y  -P .  "Runtime"
+  [ 18%]: compiling.debug ThirdParty\includes\glad\glad.c
+  [ 18%]: compiling.debug Runtime\Component\Private\MeshRenderComponent.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Application\Application.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Containers\HashMap.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Containers\JArray\JArray.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Containers\Containers.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Containers\Result.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Math\Math.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\CoreDevelopMarco.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Exception\Exception.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\FileSystem\FileSystem.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Containers\JString\JString.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\FileSystem\ImageReader.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Flags.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Containers\Optional.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Function.cpp
+  [ 18%]: compiling.debug Runtime\Core\Private\Log.cpp
+  [ 18%]: compiling.debug Runtime\Component\Private\Component.cpp
+  [ 19%]: compiling.debug Runtime\Core\Private\Memory\Memory.cpp
+  [ 20%]: compiling.debug Runtime\Core\Private\Numeric\JNumeric.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x36 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 21%]: compiling.debug Runtime\Core\Private\SmartPtr\SmartPtr.cpp
+  [ 22%]: compiling.debug Runtime\Framework\Private\GameObject.cpp
+  [ 23%]: compiling.debug Runtime\Framework\Private\GameWorld.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0x9a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0x9c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0x9d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0x9f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xa2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xa3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xa6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xa7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xa9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xaa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xab 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xaf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xf7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xf8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0xfb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Containers\Optional.h(1): warning C4828: 文件包含在偏移 0x121 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 24%]: compiling.debug Runtime\Framework\Private\Scene.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x52d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x52e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x531 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x532 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x534 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x535 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x536 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 25%]: compiling.debug Runtime\Input\Private\DynamicInputSystem.cpp
+D:\visual\VC\Tools\MSVC\14.35.32215\include\numbers(12): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 26%]: compiling.debug Runtime\Input\Private\Input.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x36 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 27%]: compiling.debug Runtime\Render\Private\Default3DRenderPipeline.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x36 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 28%]: compiling.debug Runtime\Render\Private\Mesh\RawMesh.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x36 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 29%]: compiling.debug Runtime\Render\Private\RawImage.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x36 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x65 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x68 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x6a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x6e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x72 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x74 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x76 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\SmartPtr\SmartPtr.h(1): warning C4081: 应输入“newline”；找到“;”
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x36 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 30%]: compiling.debug Runtime\Render\Private\Render.cpp
+  [ 31%]: compiling.debug Runtime\Render\Private\RenderCamera.cpp
+  [ 32%]: compiling.debug Runtime\Render\Private\RenderCommon.cpp
+  [ 33%]: compiling.debug Runtime\Render\Private\RenderItem.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x52d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x52e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x531 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x532 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x534 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x535 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Flags.h(1): warning C4828: 文件包含在偏移 0x536 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 34%]: compiling.debug Runtime\Render\Private\RenderPipeline.cpp
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2b3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2b5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2b7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2bb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2bc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2bd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2bf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2c3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2c5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderCamera.h(1): warning C4828: 文件包含在偏移 0x2c6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x65 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x68 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x6a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x6e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\visual\VC\Tools\MSVC\14.35.32215\include\numbers(12): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1a7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1ab 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1ad 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1ae 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1af 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1b0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1b4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1b6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1bd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1be 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1c1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1c3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\FileSystem\ImageReader.h(1): warning C4828: 文件包含在偏移 0x1c4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\visual\VC\Tools\MSVC\14.35.32215\include\numbers(12): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x36 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\SmartPtr\SmartPtr.h(1): warning C4081: 应输入“newline”；找到“;”
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xb0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xb2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xb3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xb4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xb5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xb6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xbc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xbf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xc5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xc6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xc7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xc8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xc9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xca 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xcb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Input\Public\Input.h(1): warning C4828: 文件包含在偏移 0xce 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x194 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ab 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ad 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ae 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3af 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3bb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\visual\VC\Tools\MSVC\14.35.32215\include\numbers(12): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 35%]: compiling.debug Runtime\Render\Private\RenderTaskDispatcher.cpp
+  [ 36%]: compiling.debug Runtime\Render\Private\UI\ImGui.cpp
+  [ 37%]: compiling.debug Runtime\Render\Private\UI\UIContext.cpp
+  [ 38%]: compiling.debug Runtime\RHI\Private\RHIDynamic.cpp
+  [ 39%]: compiling.debug Runtime\RHI\Private\RHIPlatform\RHIPlatform.cpp
+  [ 40%]: compiling.debug Runtime\RHI\Private\RHIResource\RHIResource.cpp
+  [ 41%]: compiling.debug Runtime\RHI\Private\RHIResource\RHITypeTraits.cpp
+  [ 42%]: compiling.debug Runtime\RHIOpenGL3\Private\FOpenGL.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x65 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x68 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x6a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x6e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x72 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x74 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x76 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x65 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x68 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x6a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x6e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x72 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x74 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\Math\Math.h(1): warning C4828: 文件包含在偏移 0x76 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 43%]: compiling.debug Runtime\RHIOpenGL3\Private\RHIOpenGL3Dynamic.cpp
+  [ 44%]: compiling.debug Runtime\RHIOpenGL3\Private\RHIOpenGL3Resource\RHIOpenGL3Resource.cpp
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xa4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xa5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xa7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xad 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xae 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xaf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xb0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xb3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xb7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xb8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xba 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xbb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xbc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xbd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameWorld.h(1): warning C4828: 文件包含在偏移 0xbf 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Component\Public\Component.h(1): warning C4828: 文件包含在偏移 0x1b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Component\Public\Component.h(1): warning C4828: 文件包含在偏移 0x1b4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Component\Public\Component.h(1): warning C4828: 文件包含在偏移 0x1b6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Component\Public\Component.h(1): warning C4828: 文件包含在偏移 0x1b7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Component\Public\Component.h(1): warning C4828: 文件包含在偏移 0x1c2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Component\Public\Component.h(1): warning C4828: 文件包含在偏移 0x1c3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Component\Public\Component.h(1): warning C4828: 文件包含在偏移 0x1c8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x194 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ab 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ad 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ae 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x28f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x294 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x295 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x299 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2ac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2b0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0xf8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0xf9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0xfb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0xfd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0xfe 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0x100 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0x103 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0x119 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0x11a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0x11d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\Scene.h(1): warning C4828: 文件包含在偏移 0x11e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x194 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ab 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ad 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ae 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3af 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3bb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x33a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x33c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x33d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x33e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x342 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x343 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x348 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x349 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x34c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x34e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x34f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x350 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x351 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x352 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x356 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\UIContext.h(1): warning C4828: 文件包含在偏移 0x359 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x28f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x294 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x295 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x299 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2ac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2b0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x194 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ab 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ad 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ae 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3af 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3bb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x56e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x578 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x579 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x57b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x57d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x580 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x581 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x582 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x583 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x585 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x587 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x58e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x590 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x591 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x593 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x597 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x4f7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x4f8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x4fb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x4fc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x6f8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x6fa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x703 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x705 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x706 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x709 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x70a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x2042 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x2048 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x204a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x204b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\FOpenGL.cpp(1): warning C4828: 文件包含在偏移 0x204f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 45%]: compiling.debug Runtime\RHIOpenGL3\Private\RHIOpenGL3Resource\RHIOpenGL3TypeTraits.cpp
+  [ 46%]: compiling.debug Runtime\Serialization\Private\SerializeTarget.cpp
+  [ 47%]: compiling.debug Runtime\WindowClient\Private\WindowClient.cpp
+  [ 48%]: compiling.debug ThirdParty\includes\glm\detail\glm.cpp
+  [ 49%]: compiling.debug ThirdParty\includes\imgui\backends\imgui_impl_glfw.cpp
+  [ 50%]: compiling.debug ThirdParty\includes\imgui\backends\imgui_impl_opengl3.cpp
+  [ 51%]: compiling.debug ThirdParty\includes\imgui\imgui.cpp
+  [ 52%]: compiling.debug ThirdParty\includes\imgui\imgui_demo.cpp
+  [ 53%]: compiling.debug ThirdParty\includes\imgui\imgui_draw.cpp
+  [ 54%]: compiling.debug ThirdParty\includes\imgui\imgui_tables.cpp
+  [ 55%]: compiling.debug ThirdParty\includes\imgui\imgui_widgets.cpp
+F:\MyProject\JayEngine\Runtime\Render\Private\UI\ImGui.cpp(1): warning C4828: 文件包含在偏移 0x3fc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Private\UI\ImGui.cpp(1): warning C4828: 文件包含在偏移 0x3ff 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Private\UI\ImGui.cpp(1): warning C4828: 文件包含在偏移 0x402 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Private\UI\ImGui.cpp(1): warning C4828: 文件包含在偏移 0x403 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x10e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x10f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x11b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x11c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x11d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x11e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x122 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x123 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x124 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x125 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x127 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\UI\ImGui.h(1): warning C4828: 文件包含在偏移 0x128 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameObject.h(1): warning C4828: 文件包含在偏移 0x10e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameObject.h(1): warning C4828: 文件包含在偏移 0x10f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameObject.h(1): warning C4828: 文件包含在偏移 0x111 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameObject.h(1): warning C4828: 文件包含在偏移 0x112 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameObject.h(1): warning C4828: 文件包含在偏移 0x115 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameObject.h(1): warning C4828: 文件包含在偏移 0x116 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Framework\Public\GameObject.h(1): warning C4828: 文件包含在偏移 0x118 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 56%]: compiling.debug ThirdParty\includes\ImGuizmo\GraphEditor.cpp
+  [ 57%]: compiling.debug ThirdParty\includes\ImGuizmo\ImCurveEdit.cpp
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x28f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x294 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x295 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x299 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2ac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2b0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x56e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x578 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x579 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x57b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x57d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x580 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x581 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x582 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x583 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x585 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x587 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x58e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x590 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x591 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x593 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x597 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x43b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x43d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x43e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x43f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x441 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x443 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x44b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x44c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x44e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x451 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x452 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x453 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x455 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x457 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x45b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\Default3DRenderPipeline.h(1): warning C4828: 文件包含在偏移 0x45c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xeb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xec 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xed 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xf0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xf1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xf2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xf3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xf4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xf5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xf7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xf9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xfa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0xfc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0x100 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0x101 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Render\Public\RenderPipeline.h(1): warning C4828: 文件包含在偏移 0x103 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\RHIOpenGL3Resource\RHIOpenGL3Resource.cpp(1): warning C4828: 文件包含在偏移 0xd25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\RHIOpenGL3Resource\RHIOpenGL3Resource.cpp(1): warning C4828: 文件包含在偏移 0xd26 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\RHIOpenGL3Resource\RHIOpenGL3Resource.cpp(1): warning C4828: 文件包含在偏移 0xd2b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\RHIOpenGL3Resource\RHIOpenGL3Resource.cpp(1): warning C4828: 文件包含在偏移 0xd2c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\RHIOpenGL3Resource\RHIOpenGL3Resource.cpp(1): warning C4828: 文件包含在偏移 0xd2d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Private\RHIOpenGL3Resource\RHIOpenGL3Resource.cpp(1): warning C4828: 文件包含在偏移 0xd2f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x28f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x294 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x295 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x299 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x29f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIResource\RHIResource.h(1): warning C4828: 文件包含在偏移 0x2a2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x194 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a4 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1a9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ab 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ad 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1ae 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x1b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3af 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b2 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b3 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3b9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHI\Public\RHIDynamic.h(1): warning C4828: 文件包含在偏移 0x3bb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x56e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x578 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x579 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x57b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x57d 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x580 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x581 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x582 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x583 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x585 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x587 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x58e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x590 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x591 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x593 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\RHIOpenGL3\Public\RHIOpenGL3Dynamic.h(1): warning C4828: 文件包含在偏移 0x597 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 58%]: compiling.debug ThirdParty\includes\ImGuizmo\ImGradient.cpp
+  [ 59%]: compiling.debug ThirdParty\includes\ImGuizmo\ImGuizmo.cpp
+  [ 60%]: compiling.debug ThirdParty\includes\ImGuizmo\ImSequencer.cpp
+  [ 61%]: compiling.debug ThirdParty\includes\spdlog\async.cpp
+  [ 62%]: compiling.debug ThirdParty\includes\spdlog\bundled_fmtlib_format.cpp
+  [ 63%]: compiling.debug ThirdParty\includes\spdlog\cfg.cpp
+  [ 64%]: compiling.debug ThirdParty\includes\spdlog\color_sinks.cpp
+  [ 65%]: compiling.debug ThirdParty\includes\spdlog\file_sinks.cpp
+  [ 66%]: compiling.debug ThirdParty\includes\spdlog\spdlog.cpp
+  [ 67%]: compiling.debug ThirdParty\includes\spdlog\stdout_sinks.cpp
+  [ 68%]: compiling.debug ThirdParty\includes\yaml-cpp\src\binary.cpp
+  [ 69%]: compiling.debug ThirdParty\includes\yaml-cpp\src\contrib\graphbuilder.cpp
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x17 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x1f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x23 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x25 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x27 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x28 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x2e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x32 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x33 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x34 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x35 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+F:\MyProject\JayEngine\Runtime\Core\Public\CoreDevelopMarco.h(1): warning C4828: 文件包含在偏移 0x36 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+  [ 70%]: compiling.debug ThirdParty\includes\yaml-cpp\src\contrib\graphbuilderadapter.cpp
+  [ 71%]: compiling.debug ThirdParty\includes\yaml-cpp\src\convert.cpp
+  [ 72%]: compiling.debug ThirdParty\includes\yaml-cpp\src\depthguard.cpp
+  [ 73%]: compiling.debug ThirdParty\includes\yaml-cpp\src\directives.cpp
+  [ 74%]: compiling.debug ThirdParty\includes\yaml-cpp\src\emit.cpp
+  [ 75%]: compiling.debug ThirdParty\includes\yaml-cpp\src\emitfromevents.cpp
+  [ 76%]: compiling.debug ThirdParty\includes\yaml-cpp\src\emitter.cpp
+  [ 77%]: compiling.debug ThirdParty\includes\yaml-cpp\src\emitterstate.cpp
+  [ 78%]: compiling.debug ThirdParty\includes\yaml-cpp\src\emitterutils.cpp
+  [ 79%]: compiling.debug ThirdParty\includes\yaml-cpp\src\exceptions.cpp
+  [ 80%]: compiling.debug ThirdParty\includes\yaml-cpp\src\exp.cpp
+  [ 81%]: compiling.debug ThirdParty\includes\yaml-cpp\src\memory.cpp
+  [ 82%]: compiling.debug ThirdParty\includes\yaml-cpp\src\node.cpp
+  [ 83%]: compiling.debug ThirdParty\includes\yaml-cpp\src\nodebuilder.cpp
+  [ 84%]: compiling.debug ThirdParty\includes\yaml-cpp\src\nodeevents.cpp
+  [ 85%]: compiling.debug ThirdParty\includes\yaml-cpp\src\node_data.cpp
+  [ 86%]: compiling.debug ThirdParty\includes\yaml-cpp\src\null.cpp
+  [ 87%]: compiling.debug ThirdParty\includes\yaml-cpp\src\ostream_wrapper.cpp
+  [ 88%]: compiling.debug ThirdParty\includes\yaml-cpp\src\parse.cpp
+  [ 89%]: compiling.debug ThirdParty\includes\yaml-cpp\src\parser.cpp
+  [ 90%]: compiling.debug ThirdParty\includes\yaml-cpp\src\regex_yaml.cpp
+  [ 91%]: compiling.debug ThirdParty\includes\yaml-cpp\src\scanner.cpp
+  [ 92%]: compiling.debug ThirdParty\includes\yaml-cpp\src\scanscalar.cpp
+  [ 93%]: compiling.debug ThirdParty\includes\yaml-cpp\src\scantag.cpp
+  [ 94%]: compiling.debug ThirdParty\includes\yaml-cpp\src\scantoken.cpp
+  [ 95%]: compiling.debug ThirdParty\includes\yaml-cpp\src\simplekey.cpp
+  [ 96%]: compiling.debug ThirdParty\includes\yaml-cpp\src\singledocparser.cpp
+  [ 97%]: compiling.debug ThirdParty\includes\yaml-cpp\src\stream.cpp
+  [ 98%]: compiling.debug ThirdParty\includes\yaml-cpp\src\tag.cpp
+  [ 99%]: linking.debug Runtime.dll
+  [100%]: build ok, spent 22.516s

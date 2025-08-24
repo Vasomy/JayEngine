@@ -1,0 +1,1 @@
+#include"RHIResource\RHITypeTraits.h"
