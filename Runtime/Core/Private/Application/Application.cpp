@@ -1,6 +1,6 @@
 #include"Application\Application.h"
 #include<filesystem>
-FApplication::FApplication(const FApplicationSpecification& as)
+FApplication::FApplication(FApplicationSpecification& as)
 {
 	std::filesystem::current_path(as.workingDirectory);
 }

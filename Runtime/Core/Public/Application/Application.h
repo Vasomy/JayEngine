@@ -11,7 +11,7 @@ struct FApplicationSpecification
 class FApplication
 {
 public:
-	FApplication(const FApplicationSpecification& as);
+	FApplication(FApplicationSpecification& as);
 	~FApplication();
 
 	virtual void Start();

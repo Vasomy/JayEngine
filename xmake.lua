@@ -28,9 +28,6 @@ target("Runtime")
 	set_kind("shared")
 	add_files("Runtime/*/*/**.cpp")
     add_headerfiles("Runtime/*/Public/**.h")
-
-    add_files("Runtime/EntryPoint")
-
     -- 添加第三方库
     add_includedirs("ThirdParty/includes",{public = true})
 
@@ -61,3 +58,27 @@ target("Test")
 
     add_defines("RUNTIME_EXPORT=0")
 
+
+
+target("Editor")
+    add_deps("Runtime")
+    set_kind("binary")
+
+    -- 
+    add_files("Editor/**/*.cpp")
+    add_headerfiles("Editor/**/*.h")
+    -- 添加第三方库
+    add_includedirs("ThirdParty/includes",{public = true})
+
+    add_headerfiles("ThirdParty/includes/**/*.h")
+    add_headerfiles("ThirdParty/includes/**/*.hpp")
+
+    add_linkdirs("ThirdParty/libs")
+    add_links("glfw3.lib")
+
+    add_files("ThirdParty/includes/**/*.cpp")
+    add_files("ThirdParty/includes/**/*.c")
+
+    -- 为第三方库添加宏定义
+    add_defines("SPDLOG_COMPILED_LIB")
+    add_defines("yaml_cpp_EXPORTS")

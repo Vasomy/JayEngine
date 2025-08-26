@@ -2,6 +2,7 @@
 #include"Render.h"
 #include"Log.h"
 #include"Engine.h"
+
 int main() {
 
 	::Log::FLog::Init();

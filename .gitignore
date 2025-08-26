@@ -1,5 +1,5 @@
 /.vs
 /.xmake
-/.bin
-/.build
+/bin
+/build
 /vsxmake2022
